@@ -1,0 +1,29 @@
+# Environment files
+.env
+*.env.local
+
+# Data and Models cache
+data/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+
+# Logs and Run results
+logs/
+*.log
+results/
+backups/
+output/
+wandb/
+tensorboard/
+
+# OS and Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
